@@ -1,1 +1,1 @@
-FinClass.fun();
+DemoClass.gamePlayer('Football');
