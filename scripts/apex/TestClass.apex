@@ -1,1 +1,1 @@
-AmapClass.mapping();
+FinClass.fun();
