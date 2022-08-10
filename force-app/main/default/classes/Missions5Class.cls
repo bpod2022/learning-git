@@ -1,15 +1,7 @@
-/**
- * @description       : 
- * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
- * @group             : 
- * @last modified on  : 08-10-2022
- * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
-**/
-public class Mission5Class {
+public class Missions5Class {
 
     public static void fourNumbers(){
         // Variables
-        Integer sum;
         List<Integer> input = new List<Integer>();
 
         // setup values in List
