@@ -1,1 +1,1 @@
-DemoWedsClass.sumToHundred();
+Mission5Class.fourNumbers();
