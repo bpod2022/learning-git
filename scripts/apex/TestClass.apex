@@ -1,1 +1,1 @@
-Mission5Class.fourNumbers();
+Missions5Class.fourNumbers();
