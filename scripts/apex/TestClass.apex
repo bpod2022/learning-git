@@ -1,1 +1,1 @@
-DemoClass.gamePlayer('Football');
+DemoWedsClass.sumToHundred();
