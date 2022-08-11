@@ -128,7 +128,33 @@ public class DemoWedsClass {
         
         return contactList;
     }   
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+// Create a method which creates Account and contact
+// Associate account with that Contact and Opportunity
     
-    
+    public static void createAccountAndContact(){
+        
+        Account acc = new Account();
+        acc.Name = 'Demo Account';
+        acc.Rating = 'Hot';
+        insert acc;
+        
+        Contact con = new Contact();
+        con.FirstName = 'Daffy';
+        con.LastName = 'Duck';
+        con.AccountId = acc.Id ;
+        insert con;
+        
+        Opportunity opp = new Opportunity();
+        opp.Name = 'Thurs New Opportunity';
+        opp.AccountID = acc.Id;
+        insert opp;
+        
+        System.debug(acc);
+        System.debug(con);
+        System.debug(opp);
+        
+    }    
    
 }
