@@ -1,1 +1,1 @@
-Missions5Class.fourNumbers();
+AmapClass.mapping();
